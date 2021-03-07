@@ -1,0 +1,19 @@
+; Programa que lee los elementos la cinta de entrada hasta
+; que encuentre un 0 y copia los valores leídos a la cinta
+; de salida (el valor 0 no se copia)
+
+				read 1
+leer:		load 1
+				add 1
+				store 2
+				read 1
+				load 1
+				store 2
+				div 2
+				MULT 2
+				READ 2
+				sub 3
+				write 2
+				jump ola
+				jgtz ola
+				jzero pepe

@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gtw1"]
+	url = master
+	fetch = +refs/heads/*:refs/remotes/gtw1/*
+[remote "gtw2"]
+	url = git@github.com:alu0101240374/RamMachineSimulator.git
+	fetch = +refs/heads/*:refs/remotes/gtw2/*
+[remote "gtw3"]
+	url = git@github.com:alu0101240374/RamMachineSimulator.git
+	fetch = +refs/heads/*:refs/remotes/gtw3/*
+[remote "gtw4"]
+	url = git@github.com:alu0101240374/RamSimulator.git
+	fetch = +refs/heads/*:refs/remotes/gtw4/*
+[branch "master"]
+	remote = gtw4
+	merge = refs/heads/master
+	rebase = true
+[branch "instrucciones"]
+	remote = gtw4
+	merge = refs/heads/instrucciones
+	rebase = true
